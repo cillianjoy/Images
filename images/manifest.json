@@ -1,0 +1,67 @@
+{
+  "id" : "https://cillianjoy.github.io/Images/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in cillianjoy/Images project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 523,
+    "id" : "https://cillianjoy.github.io/Images/images/icam-1/canvas/",
+    "label" : {
+      "none" : [ "icam-1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://cillianjoy.github.io/Images/images/icam-1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://cillianjoy.github.io/Images/images/icam-1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 17,
+              "height" : 22
+            }, {
+              "width" : 33,
+              "height" : 43
+            }, {
+              "width" : 66,
+              "height" : 85
+            }, {
+              "width" : 131,
+              "height" : 169
+            }, {
+              "width" : 262,
+              "height" : 338
+            }, {
+              "width" : 523,
+              "height" : 675
+            } ],
+            "profile" : "level0",
+            "width" : 523,
+            "id" : "https://cillianjoy.github.io/Images/images/icam-1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 675
+          } ],
+          "format" : "image/jpeg",
+          "width" : 523,
+          "id" : "https://cillianjoy.github.io/Images/images/icam-1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 675
+        },
+        "target" : "https://cillianjoy.github.io/Images/images/icam-1/canvas/"
+      } ]
+    } ],
+    "height" : 675
+  } ]
+}
