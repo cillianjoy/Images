@@ -7,6 +7,64 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 5000,
+    "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3/canvas/",
+    "label" : {
+      "none" : [ "bookeye_liberf_v3" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 157,
+              "height" : 109
+            }, {
+              "width" : 313,
+              "height" : 217
+            }, {
+              "width" : 625,
+              "height" : 433
+            }, {
+              "width" : 1250,
+              "height" : 866
+            }, {
+              "width" : 2500,
+              "height" : 1731
+            }, {
+              "width" : 5000,
+              "height" : 3462
+            } ],
+            "profile" : "level0",
+            "width" : 5000,
+            "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3462
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5000,
+          "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3462
+        },
+        "target" : "https://cillianjoy.github.io/Images/images/bookeye_liberf_v3/canvas/"
+      } ]
+    } ],
+    "height" : 3462
+  }, {
+    "width" : 5000,
     "id" : "https://cillianjoy.github.io/Images/images/bookeye_liberf/canvas/",
     "label" : {
       "none" : [ "bookeye_liberf" ]
